@@ -1,0 +1,10 @@
+<view>
+  <button bindtap="checkin">点击签到</button>
+</view>
+
+<modal title="标题" no-cancel confirm-text="confirm"  hidden="{{modalHidden}}" bindconfirm="modalChange" >
+ {{message}}
+</modal>
+
+
+
